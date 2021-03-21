@@ -23,4 +23,9 @@
     <ProjectReference Include="..\LibCustomStory.Core\LibCustomStory.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="samples/custom_story_settings.cfg" CopyToOutputDirectory="Always" />
+  </ItemGroup>
+
+
 </Project>
