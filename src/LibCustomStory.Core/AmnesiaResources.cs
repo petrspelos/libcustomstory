@@ -14,6 +14,18 @@ namespace LibCustomStory.Core
             return (CustomStorySettings)serializer.Deserialize(File.OpenRead(path));
         }
 
+        public static LanguageResources LanguageResourcesFromFile(string path)
+        {
+            var serializer = new XmlSerializer(typeof(LanguageResources));
+            return (LanguageResources)serializer.Deserialize(File.OpenRead(path));
+        }
+
+        public static Level LevelFromFile(string path)
+        {
+            var serializer = new XmlSerializer(typeof(Level));
+            return (Level)serializer.Deserialize(File.OpenRead(path));
+        }
+
         public static void WriteToFile(CustomStorySettings settings, string outputFile) => SerializePureXml(settings, outputFile);
 
         public static void WriteToFile(LanguageResources settings, string outputFile) => SerializePureXml(settings, outputFile);
