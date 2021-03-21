@@ -1,0 +1,42 @@
+<LANGUAGE>
+  <RESOURCES />
+
+  <CATEGORY Name="CustomStoryMain">
+    <Entry Name="Description">Custom Story Description</Entry>
+  </CATEGORY>
+
+  <CATEGORY Name="General">
+      <Entry Name="Loading">Pouring a shot...</Entry>
+      <Entry Name="TheEnd">Cheers!</Entry>
+  </CATEGORY>
+
+  <CATEGORY Name="Inventory">
+    <Entry Name="ItemName_HoneyJack">Jack Daniel's Honey</Entry>
+	  <Entry Name="ItemDesc_HoneyJack">Ah... my favorite...</Entry>
+
+    <Entry Name="ItemName_SkeletonVodka">Skeleton Vodka</Entry>
+	  <Entry Name="ItemDesc_SkeletonVodka">Somehow the taste of this prevents me from losing it...</Entry>
+
+    <Entry Name="Tinderboxes">Tindercylinder</Entry>
+    <Entry Name="Journal">Ramblings</Entry>
+    <Entry Name="JournalDesc">Click to open.</Entry>
+  </CATEGORY>
+
+  <CATEGORY Name="VoiceLines">
+    <Entry Name="IntroMemory_1">My dearest friend, if you read this, I got myself into a situation from which I will never escape.</Entry>
+    <Entry Name="IntroMemory_2">I'm going to hold the gate open...</Entry>
+    <Entry Name="IntroMemory_3">Yeah yeah, we don't have time, you gotta go.</Entry>
+    <Entry Name="IntroMemory_4">Don't worry about me, you gotta go!</Entry>
+  </CATEGORY>
+
+  <CATEGORY Name="Credits">
+    <Entry Name="Main">
+    **Music
+    [br]
+    Faded Memories[br]
+    by Erik Margolin[br]
+    https://soundcloud.com/erikmmusic[br]
+    (CC BY 3.0) License[br]
+    </Entry>
+  </CATEGORY>
+</LANGUAGE>
